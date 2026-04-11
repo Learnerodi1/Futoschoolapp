@@ -23,10 +23,10 @@ const ResponsiveNav = () => {
                 </span>
             </header>
 
-            <section className={clsx("top-[104px] p-4 right-0 left-0 transform transition-transform duration-300 ease-in-out fixed", menuState ? "translate-y-0" : "-translate-y-full") }>
+            <section className={clsx("bg-[#1b1b24] top-[60px] p-4 right-0 left-0 transform transition-transform duration-300 ease-in-out fixed z-10", menuState ? "translate-y-0" : "-translate-y-full") }>
                 <div className="flex items-center gap-6 flex-1 p-4">
                     <div className="relative w-[100%] ">
-                        <span className="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-lg"
+                        <span className="material-symbols-outlined absolute left-3 top-1/4.7 -translate-y-1/4.7 text-outline text-lg"
                             data-icon="search">search</span>
                         <input
                             className="w-[100%] bg-surface-container-highest/50 border-none rounded-full py-2 pl-10 pr-4 focus:ring-1 focus:ring-primary text-xs transition-all placeholder:text-outline"

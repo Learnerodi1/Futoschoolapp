@@ -7,7 +7,7 @@ const TopBarNav = () => {
                 class="bg-[#13121b]/60 backdrop-blur-xl fixed top-0 right-0 left-64 h-16 z-50 border-b border-[#464555]/15 shadow-[0_10px_rgba(79,70,229,0.8)] flex justify-between items-center px-8 font-['Plus_Jakarta_Sans'] text-sm">
                 <div class="flex items-center gap-6 flex-1">
                     <div class="relative w-full max-w-md">
-                        <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-lg"
+                        <span class="material-symbols-outlined absolute left-3 top-1/4.7 -translate-y-1/4.7 text-outline text-lg"
                             data-icon="search">search</span>
                         <input
                             class="w-full bg-surface-container-highest/50 border-none rounded-full py-2 pl-10 pr-4 focus:ring-1 focus:ring-primary text-xs transition-all placeholder:text-outline"
