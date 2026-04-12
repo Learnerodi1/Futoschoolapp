@@ -67,7 +67,7 @@ const ResponsiveNav = () => {
                 </nav>
                 <div className="my-[20px] px-4 ">
                     <button
-                        className="w-md bg-gradient-to-br from-primary to-primary-container text-on-primary font-bold py-3 px-6 rounded-full flex items-center justify-center gap-2 transition-transform active:scale-95 shadow-lg shadow-primary/20">
+                        className=" bg-gradient-to-br from-primary to-primary-container text-on-primary font-bold py-3 px-6 rounded-full flex items-center justify-center gap-2 transition-transform active:scale-95 shadow-lg shadow-primary/20">
                         <span className="material-symbols-outlined text-sm" data-icon="add">add</span>
                         <span>New Entry</span>
                     </button>

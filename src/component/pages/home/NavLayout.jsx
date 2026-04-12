@@ -11,10 +11,10 @@ const NavLayout = () => {
                 <NavBar />
                 <TopBarNav />
             </div>
-            <div className="hidden max-[1000px]:block">
+            <div className="h-fit hidden max-[1000px]:block max-[1000px]:h-full">
                 <ResponsiveNav />
             </div>
-            <main class="ml-64 max-[1000px]:ml-0 pt-24 pb-12 px-8 min-h-screen max-[1000px]:px-4">
+            <main className="ml-64 max-[1000px]:ml-0 pt-24 pb-12 px-8 min-h-screen max-[1000px]:px-4">
                 <Outlet />
             </main>
         </>
